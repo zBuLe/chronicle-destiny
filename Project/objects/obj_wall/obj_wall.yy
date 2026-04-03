@@ -6,8 +6,8 @@
   "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"ChronicleDestiny",
-    "path":"ChronicleDestiny.yyp",
+    "name":"code",
+    "path":"folders/code.yy",
   },
   "parentObjectId":null,
   "persistent":false,
