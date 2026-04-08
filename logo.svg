@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Blender, SVG Export for Grease Pencil - v1.0 -->
+
+<svg
+   version="1.0"
+   x="0px"
+   y="0px"
+   width="500"
+   height="500"
+   viewBox="0 0 500 500"
+   id="svg25"
+   sodipodi:docname="SiteLogo.svg"
+   inkscape:export-filename="LogoSplash640x360.png"
+   inkscape:export-xdpi="32"
+   inkscape:export-ydpi="32"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs29" />
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     showgrid="false"
+     width="1920px"
+     inkscape:zoom="0.5420354"
+     inkscape:cx="620.80816"
+     inkscape:cy="480.59592"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Logo">
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Circle"
+       style="display:inline">
+      <circle
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.776023"
+         id="path54"
+         cx="250"
+         cy="250"
+         r="250"
+         inkscape:export-filename="C:\Users\zbule\OneDrive\BlueStar03\NeoLogo\LogoIcon1024x1024.png"
+         inkscape:export-xdpi="196.608"
+         inkscape:export-ydpi="196.608" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer1"
+       inkscape:label="Star"
+       style="display:inline">
+      <g
+         id="blender_frame_1"
+         transform="matrix(0.75729876,0,0,0.75729876,-6.81398,-6.81398)"
+         style="display:inline;fill:#0000ff;fill-opacity:1"
+         inkscape:export-filename="C:\Users\zbule\OneDrive\BlueStar03\NeoLogo\LogoSplashDLight1920x1080.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <g
+           id="blender_object_STAR"
+           style="fill:#0000ff;fill-opacity:1">
+          <!--Layer: wing_002_Fills-->
+          <g
+             id="wing_002_Fills"
+             style="fill:#0000ff;fill-opacity:1">
+            <path
+               id="polygon2"
+               style="fill:#0000ff;fill-opacity:1"
+               d="M 386.40912,221.36938 H 291.82776 L 339.11841,75.823669 Z"
+               sodipodi:nodetypes="cccc" />
+          </g>
+          <!--Layer: wing_002_Fills.001-->
+          <g
+             id="wing_002_Fills.001"
+             style="fill:#0000ff;fill-opacity:1">
+            <path
+               id="polygon5"
+               style="fill:#0000ff;fill-opacity:1"
+               d="m 308.16626,462.17609 c -41.26952,29.98408 -82.53905,59.96815 -123.80859,89.95221 15.76354,-48.51524 31.52708,-97.03048 47.29064,-145.54572 25.50598,18.53117 51.01197,37.06234 76.51795,55.59351 z" />
+          </g>
+          <!--Layer: core_001_Fills-->
+          <g
+             id="core_001_Fills"
+             style="fill:#0000ff;fill-opacity:1">
+            <path
+               id="polygon8"
+               style="fill:#0000ff;fill-opacity:1;stroke-width:1"
+               d="m 319.41435,332.71719 c 45.0185,32.70773 90.03699,65.41547 135.05548,98.12322 -6.56803,-20.21473 -13.13605,-40.42947 -19.70408,-60.6442 17.19551,-12.49301 34.39102,-24.98602 51.58652,-37.47902 -55.64598,0 -111.29194,0 -166.93792,0 z" />
+            <path
+               id="polygon12"
+               style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1"
+               d="M 88.708991,257.75659 C 223.76533,355.88066 358.82165,454.00475 493.87799,552.12882 487.30996,531.91409 480.74193,511.69935 474.17391,491.48462 384.13693,426.06828 294.09994,360.65193 204.06297,295.2356 c 111.29194,0 222.58388,0 333.87582,0 17.19637,-12.49301 34.39273,-24.98601 51.5891,-37.47901 -166.93963,0 -333.87927,0 -500.818899,0 z" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
