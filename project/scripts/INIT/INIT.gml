@@ -2,7 +2,7 @@ gml_release_mode(false);
 #macro vMAJOR 0
 #macro vMINOR 1
 #macro vPATCH 0
-#macro vBUILD 3
+#macro vBUILD 4
 #macro vTAG "dev"
 #macro VERSION string(vMAJOR)+"."+string(vMINOR)+"."+string(vPATCH) + (vTAG != "GOLD" ? "-" + vTAG + (vBUILD > 0 ? "." + string(vBUILD) : "") : "")
 #macro nVERSION (vMAJOR*100000000 + vMINOR*1000000 + vPATCH*1000 + vBUILD)
