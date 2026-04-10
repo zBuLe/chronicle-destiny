@@ -1,0 +1,2 @@
+FADE.draw();
+DBUG.draw();

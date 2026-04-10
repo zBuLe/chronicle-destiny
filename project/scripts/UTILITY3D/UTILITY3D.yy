@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"UTILITY3D",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"UTILITY3D",
+  "parent":{
+    "name":"code",
+    "path":"folders/code.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,8 +1,8 @@
-INPUT.update();
+
 
 // camera rotation — right stick horizontal
+
 CAMERA.rotate_orbit(INPUT.joy_right.horizontal.current * 2);
-CAMERA.update();
 
 // camera-relative axes
 var _forward = CAMERA.get_forward();
@@ -16,12 +16,10 @@ var _raw_v = INPUT.joy_left.vertical.current;
 var _hspd = _raw_h * _right.x + _raw_v * _forward.x;
 var _vspd = _raw_h * _right.y + _raw_v * _forward.y;
 
-// normalize diagonal
-var _len = point_distance(0, 0, _hspd, _vspd);
-if (_len > 0) {
-    _hspd = (_hspd / _len) * move_spd;
-    _vspd = (_vspd / _len) * move_spd;
-}
+
+    _hspd *= move_spd;
+    _vspd *= move_spd;
+
 
 // collision X
 if (_hspd != 0) {

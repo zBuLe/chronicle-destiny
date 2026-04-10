@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sys_tmap",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sys_tmap",
+  "parent":{
+    "name":"sys",
+    "path":"folders/code/sys.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

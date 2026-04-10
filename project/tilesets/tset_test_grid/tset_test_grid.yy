@@ -17,8 +17,8 @@
   },
   "name":"tset_test_grid",
   "out_columns":4,
-  "out_tilehborder":2,
-  "out_tilevborder":2,
+  "out_tilehborder":0,
+  "out_tilevborder":0,
   "parent":{
     "name":"assets",
     "path":"folders/assets.yy",

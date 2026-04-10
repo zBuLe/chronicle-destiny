@@ -28,7 +28,7 @@ function Camera() constructor {
     snap  = false;
 
     // Ortho commented out — GML tile/3D issues
-    // pro_mat = matrix_build_projection_ortho(__SCREEN_W / 2, __SCREEN_H / 2, 1, 32000);
+     pro_mat = matrix_build_projection_ortho(SCREEN.width / 2, SCREEN.height / 2, 1, 32000);
 
     update = function() {
         switch (mode) {
@@ -99,7 +99,7 @@ function Camera() constructor {
         target.to.z = target.from.z + _fz;
     };
 
-    update_to_target = function(ease = 1) {
+    update_to_target = function(ease = 0.1) {
         ease = clamp(ease, 0, 1);
 
         from.x = lerp(from.x, target.from.x, ease);
@@ -153,7 +153,7 @@ function Camera() constructor {
     };
 
     draw = function() {
-        draw_clear(c_cornflowerblue);
+        draw_clear(c_cornflower);
         var _cam = camera_get_active();
         camera_set_view_mat(_cam, matrix_build_lookat(
             from.x, from.y, from.z,
@@ -161,11 +161,8 @@ function Camera() constructor {
             up.x,   up.y,   up.z
         ));
         // Perspective — swap back to pro_mat when ortho issues are resolved
-		camera_set_proj_mat(_cam, matrix_build_projection_perspective_fov(
-		    30,
-		    SCREEN.width / SCREEN.height,
-		    1, 32000
-		));
+		//camera_set_proj_mat(_cam, matrix_build_projection_perspective_fov(30,SCREEN.width / SCREEN.height,1, 32000));
+      camera_set_proj_mat(_cam, pro_mat);
         camera_apply(_cam);
     };
 }

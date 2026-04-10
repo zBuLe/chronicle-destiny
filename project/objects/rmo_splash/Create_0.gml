@@ -1,0 +1,9 @@
+margin = 20;
+x1 = SCREEN.topleft.x + margin;
+y1 = SCREEN.topleft.y + margin;
+x2 = SCREEN.bottomright.x - margin;
+y2 = SCREEN.bottomright.y - margin;
+lx = SCREEN.center.x;
+ly = SCREEN.center.y;
+label = "This is a\nWork In Progress\nplease go to\nbluestar03.com\nfor comments, complaints, suggestions\nand support";
+link = " \n\n\nbluestar03.com\n\n ";

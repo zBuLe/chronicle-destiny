@@ -16,7 +16,10 @@ gml_release_mode(false);
 #macro LOREM "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et elementum risus. Etiam condimentum ligula eget purus euismod molestie. Etiam varius, orci dictum bibendum volutpat, lorem nunc congue sapien, eget rutrum arcu urna at dolor. Nam ornare dignissim arcu, quis accumsan dui. Duis rutrum non mi non pellentesque. Donec pharetra augue ante, eget semper tortor varius eu. Nullam quis rhoncus nisl. Curabitur in commodo odio, in laoreet sem."
 #macro null undefined
 #macro	c_random make_color_rgb(irandom(255),irandom(255),irandom(255))
-#macro c_cornflowerblue #6495ed
+#macro c_cornflower #6495ed
+#macro c_error #ff00ff
+#macro KEY_DBUG 192 // 192 is the ~ key
+ 
 
 gpu_set_ztestenable(true);
 gpu_set_zwriteenable(true);
@@ -30,7 +33,7 @@ gpu_set_texrepeat(true);
 PLATFORM = new Platform();
 
 #macro SCREEN global.__screen
-SCREEN = new Screen(640, 360, 1);
+SCREEN = new Screen(640, 360, 2);
 
 #macro INPUT global.__input
 INPUT = new Input(input_modes.delay);
@@ -41,5 +44,13 @@ CAMERA = new Camera();
 #macro DIALOG global.__dialog
 DIALOG = new Dialog();
 
+#macro FADE global.__fade
+FADE = new Fade();
+
+#macro TMAP global.__tmap
+TMAP = new Tmap();
+
 #macro DBUG global.__dbug
 DBUG = new Dbug();
+
+global.order = "";

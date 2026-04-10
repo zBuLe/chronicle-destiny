@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Vector3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Vector3",
+  "parent":{
+    "name":"math",
+    "path":"folders/code/sys/math.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

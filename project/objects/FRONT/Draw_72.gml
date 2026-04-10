@@ -1,0 +1,2 @@
+CAMERA.draw();
+TMAP.Draw()

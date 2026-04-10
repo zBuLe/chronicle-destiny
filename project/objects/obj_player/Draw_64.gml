@@ -1,2 +1,0 @@
-DBUG.update();
-DBUG.draw();

@@ -14,11 +14,12 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"9650245c-89ca-43f6-9eda-7da24fca3c4c","name":"9650245c-89ca-43f6-9eda-7da24fca3c4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
+  "gridX":4,
+  "gridY":4,
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"7ca1ff7b-bff1-4538-8987-99f9d10dd7c4","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"7ca1ff7b-bff1-4538-8987-99f9d10dd7c4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"3b8c4f70-eb3a-48d0-9a6a-04c38c6208fd","blendMode":0,"displayName":"default","isLocked":false,"name":"3b8c4f70-eb3a-48d0-9a6a-04c38c6208fd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"tl_tes_grid",

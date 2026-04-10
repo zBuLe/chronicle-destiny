@@ -1,0 +1,2 @@
+TMAP.Init();
+FADE.start();
